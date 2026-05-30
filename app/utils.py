@@ -1,6 +1,6 @@
 from passlib.context import CryptContext
 from PIL import Image
-import dependencies as deps
+from . import dependencies as deps
 from loguru import logger
 
 pwd_context=CryptContext(schemes=["argon2"],deprecated="auto")
